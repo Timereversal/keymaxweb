@@ -2,6 +2,7 @@ package main
 
 import (
 	"github.com/go-chi/chi/v5"
+	"github.com/timereversal/keymaxweb/controllers"
 	"net/http"
 )
 
