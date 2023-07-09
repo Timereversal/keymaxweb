@@ -15,7 +15,7 @@ type CarService struct {
 	DB *sql.DB
 }
 
-func (c *CarService) create(brand, model string) (*Car, error) {
+func (c *CarService) Create(brand, model string) (*Car, error) {
 	brand = strings.ToLower(brand)
 	model = strings.ToLower(model)
 
